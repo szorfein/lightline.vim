@@ -1,7 +1,14 @@
 # lightline.vim
 My custom themes for lighline.vim
 
-# themes
+# install
+Add the following lines to your `.vimrc`.
 
-skull:
-[skull](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/skull.jpg "skull")
+```vim
+let g:lightline = {
+  \ 'colorscheme': '<theme-name>',
+  \ }
+```
+# themes
+Skull:
+[Skull](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/skull.jpg "Skull")

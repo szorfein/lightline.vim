@@ -1,5 +1,5 @@
 " =============================================================================
-" Theme: skull.vim
+" Theme: lightline-skull.vim
 " Author: szorfein
 " License: MIT License
 " Last Change: 2019/03/20
