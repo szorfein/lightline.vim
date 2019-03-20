@@ -11,4 +11,4 @@ let g:lightline = {
 ```
 # themes
 Skull:
-[Skull](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/skull.jpg "Skull")
+![Skull](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/skull.jpg "Skull")
