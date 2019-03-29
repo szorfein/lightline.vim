@@ -1,5 +1,5 @@
 " =============================================================================
-" Theme: lightline-skull.vim
+" Theme: lightline-dark.vim
 " Author: szorfein
 " License: MIT License
 " Last Change: 2019/03/20
@@ -11,7 +11,7 @@ let s:base1 = '#e2ccc7' "fg right
 let s:base0 = '#3d4d4a' "bg most right side
 let s:base00 = '#666666'
 let s:base01 = '#26302f' "bg <filename>
-let s:base02 = '#1d1b22' "fg Normal and bg center
+let s:base02 = '#111215' "fg Normal and bg center
 let s:base023 = '#303030'
 let s:base03 = '#1d1f21'
 let s:red = '#462d40'
@@ -39,4 +39,4 @@ let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.normal.error = [ [ s:red, s:base023 ] ]
 let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]
 
-let g:lightline#colorscheme#Skull#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#Dark#palette = lightline#colorscheme#fill(s:p)

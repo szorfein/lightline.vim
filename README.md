@@ -9,6 +9,15 @@ let g:lightline = {
   \ 'colorscheme': '<theme-name>',
   \ }
 ```
+If you use powerline or any [Nerd font](https://github.com/ryanoasis/nerd-fonts), you can display icon with thu use of `separator`:
+
+```vim
+let g:lightline = {
+  \ 'colorscheme': 'Dark',
+  \ 'separator': { 'left': '', 'right': '' },
+  \ }
+```
+
 # themes
-Skull:
-![Skull](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/skull.jpg "Skull")
+Dark:
+![Dark](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/dark.jpg "Dark")
