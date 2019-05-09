@@ -21,3 +21,6 @@ let g:lightline = {
 # themes
 Dark:
 ![Dark](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/dark.jpg "Dark")
+
+Connected:
+![Connected](https://raw.githubusercontent.com/szorfein/lightline.vim/master/images/connected.png "Connected")
