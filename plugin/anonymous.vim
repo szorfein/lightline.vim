@@ -1,17 +1,17 @@
 " =============================================================================
-" Theme: lightline-connected.vim
+" Theme: lightline-anonymous.vim
 " Author: szorfein
 " License: MIT License
-" Last Change: 2019/05/08
+" Last Change: 2019/05/28
 " =============================================================================
 
 let s:base3 = '#a0a0a0' "fg <filename>
 let s:base2 = '#f0f0f0' 
 let s:base1 = '#e2ccc7' "fg right
-let s:base0 = '#2a352e' "bg most right side
+let s:base0 = '#673573' "bg most right side
 let s:base00 = '#666666'
-let s:base01 = '#202724' "bg <filename>
-let s:base02 = '#181f1c' "fg Normal and bg center
+let s:base01 = '#483970' "bg <filename>
+let s:base02 = '#20252c' "fg Normal and bg center
 let s:base023 = '#303030'
 let s:base03 = '#1d1f21'
 let s:red = '#462d40'
@@ -19,7 +19,7 @@ let s:orange = '#4a3d4d' "bg REPLACE mode
 let s:yellow = '#876f4d' 
 let s:green = '#4a645c' "bg INSERT mode
 let s:cyan = '#8abeb7'
-let s:blue = '#29322e' "bg NORMAL mode
+let s:blue = '#4a7f71' "bg NORMAL mode
 let s:magenta = '#777775' "bg VISUAL mode
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
@@ -39,4 +39,4 @@ let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.normal.error = [ [ s:red, s:base023 ] ]
 let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]
 
-let g:lightline#colorscheme#Connected#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#Anonymous#palette = lightline#colorscheme#fill(s:p)
