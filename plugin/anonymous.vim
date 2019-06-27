@@ -7,12 +7,12 @@
 
 let s:base3 = '#a0a0a0' "fg <filename>
 let s:base2 = '#f0f0f0' 
-let s:base1 = '#e2ccc7' "fg right
-let s:base0 = '#673573' "bg most right side
+let s:base1 = '#af9cc7' "fg right
+let s:base0 = '#27292f' "bg top left and bottom right
 let s:base00 = '#666666'
 let s:base01 = '#483970' "bg <filename>
-let s:base02 = '#20252c' "fg Normal and bg center
-let s:base023 = '#303030'
+let s:base02 = '#27292f' "fg Normal and bg center
+let s:base023 = '#483970' "bg top left
 let s:base03 = '#1d1f21'
 let s:red = '#462d40'
 let s:orange = '#4a3d4d' "bg REPLACE mode
@@ -24,7 +24,7 @@ let s:magenta = '#777775' "bg VISUAL mode
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]
-let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]
+let s:p.normal.right = [ [ s:base1, s:base02 ], [ s:base1, s:base01 ] ]
 let s:p.inactive.right = [ [ s:base02, s:base00 ], [ s:base00, s:base02 ] ]
 let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base00, s:base03 ] ]
 let s:p.insert.left = [ [ s:base02, s:green ], [ s:base3, s:base01 ] ]
@@ -35,7 +35,7 @@ let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]
 let s:p.tabline.left = [ [ s:base2, s:base01 ] ]
 let s:p.tabline.tabsel = [ [ s:base2, s:base023 ] ]
 let s:p.tabline.middle = [ [ s:base01, s:base0 ] ]
-let s:p.tabline.right = copy(s:p.normal.right)
+let s:p.tabline.right = [ [ s:base03, s:cyan ] ] "top right
 let s:p.normal.error = [ [ s:red, s:base023 ] ]
 let s:p.normal.warning = [ [ s:yellow, s:base02 ] ]
 
