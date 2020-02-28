@@ -5,16 +5,16 @@
 " Last Change: 2020/02/10
 " =============================================================================
 
-let s:background = '#171619'
-let s:background_light = '#201E24'
-let s:primary = '#81D6B1'
-let s:primary_light = '#91DAD0'
-let s:primary_fg = '#201E24'
-let s:primary_light_fg = '#171619'
+let s:background = '#151316'
+let s:background_light = '#1A181C'
+let s:primary = '#7ACCA8'
+let s:primary_light = '#84E8CD'
+let s:primary_fg = '#151316'
+let s:primary_light_fg = '#0E0C0F'
 let s:secondary = '#9286E8'
-let s:secondary_light = '#A196E8'
-let s:secondary_fg = '#201E24'
-let s:secondary_light_fg = '#171619'
+let s:secondary_light = '#7E6FF2'
+let s:secondary_fg = '#151316'
+let s:secondary_light_fg = '#0E0C0F'
 let s:alert = '#AF2272'
 let s:alert_fg = '#171619'
 
@@ -26,7 +26,7 @@ let s:base00 = s:secondary "unocupied
 
 " bottom left
 let s:basel1 = s:background
-let s:basel1_fg = s:primary_light_fg "fg name github repo
+let s:basel1_fg = s:primary "fg name github repo
 
 " top
 let s:base023 = s:primary_light "bg top left
@@ -53,7 +53,7 @@ let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': 
 let s:p.normal.left = [ [ s:background_light, s:blue ], [ s:basel1_fg, s:basel1 ] ]
 let s:p.normal.right = [ [ s:baser2_fg, s:baser2 ], [ s:baser1_fg, s:baser1 ] ]
 let s:p.inactive.right = [ [ s:bgbase, s:base00 ], [ s:base00, s:bgbase ] ]
-let s:p.inactive.left =  [ [ s:base0, s:bgbase ], [ s:base00, s:base03 ] ]
+let s:p.inactive.left =  [ [ s:base0, s:bgbase ], [ s:base00, s:baser1 ] ]
 let s:p.insert.left = [ [ s:bgbase, s:green ], [ s:base3, s:base01 ] ]
 let s:p.replace.left = [ [ s:bgbase, s:orange ], [ s:base3, s:base01 ] ]
 let s:p.visual.left = [ [ s:bgbase, s:magenta ], [ s:base3, s:base01 ] ]
